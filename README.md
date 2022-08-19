@@ -6,7 +6,17 @@ CIP is also the entity that is responsible for the centralized settlement in Bra
 
 I started by getting the information about the CERC and CIP SLC participants. When we try to merge those lists we basically have the following scenario:
 
-[Merging CIP and CERC participants lists](./images/registrars.png)
+![Merging CIP and CERC participants lists](./images/registrars.png)
+
+Let's focus on blue and grey areas. If we consider CIP list, we have columns named 'is_subacquirer' and 'is_subacquirer_receiver'. The second one means that subacquirer receives funds through centralizead settlement chamber, but it doesn't settle using the same chamber to its merchants. We obtain the following combinations after analyzing each subacquirer:
+
+| is_subacquirer| is_subacquirer_receiver|Subacquirer type|
+| ----------- | ----------- |------------|
+| False      | True       |Since they are only receivers and never reached a trigger to require centralized settlement, they can be consider **recent** subacquirers|
+| True      | False       |They started from the beginning being regular subacquirer, so they already had significant volume. We will call the **old** ones|
+| True   | True        |We can call them **evolved** subacquirers that started being receivers and the increased their value until convert to regular subacquirers|
+
+
 
 # Resources
 - CERC participants list (updated);
