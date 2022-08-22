@@ -19,4 +19,4 @@ Let's focus on blue and grey areas. If we consider CIP list, we have columns nam
 
 # Resources
 - [CERC participants list](./input/LISTA-PARTICIPANTES-CERC-ARRANJOS-DE-PAGAMENTO-1.pdf) (updated 05/2022);
-- [CIP participants list]('./input/ParticipantesHomologados.pdf') (updated 05/2022).
+- [CIP participants list](./input/ParticipantesHomologados.pdf) (updated 8/11/2022).
