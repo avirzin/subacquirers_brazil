@@ -3,6 +3,7 @@ Trying to understand better the subacquirers connected with the biggest registra
 
 CIP is also the entity that is responsible for the centralized settlement in Brazil (according to the Circular Letter 3.765):
 
+![CIP settlement flow](./images/cip_settlement_flow.png)
 
 I started by getting the information about the CERC and CIP SLC participants. When we try to merge those lists we basically have the following scenario:
 
@@ -16,8 +17,6 @@ Let's focus on blue and grey areas. If we consider CIP list, we have columns nam
 | True      | False       |They started from the beginning being regular subacquirer, so they already had significant volume. We will call the **old** ones|
 | True   | True        |We can call them **evolved** subacquirers that started being receivers and the increased their value until convert to regular subacquirers|
 
-
-
 # Resources
-- CERC participants list (updated);
-- CIP participant list (updated).
+- [CERC participants list](./input/LISTA-PARTICIPANTES-CERC-ARRANJOS-DE-PAGAMENTO-1.pdf) (updated 05/2022);
+- [CIP participants list]('./input/ParticipantesHomologados.pdf') (updated 05/2022).
