@@ -17,7 +17,7 @@ Let's focus on blue and grey areas. If we consider CIP list, we have columns nam
 | True      | False       |They started from the beginning being regular subacquirer, so they already had significant volume. We will call the **old** ones|
 | True   | True        |We can call them **evolved** subacquirers that started being receivers and the increased their value until convert to regular subacquirers|
 
-According to the classification and to the generated outputs we have the following scenarios
+According to the classification and to the generated outputs we have the following scenarios:
 
 **CIP (and other registrars) subacquirers by type**
 
