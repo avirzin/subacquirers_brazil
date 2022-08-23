@@ -17,6 +17,21 @@ Let's focus on blue and grey areas. If we consider CIP list, we have columns nam
 | True      | False       |They started from the beginning being regular subacquirer, so they already had significant volume. We will call the **old** ones|
 | True   | True        |We can call them **evolved** subacquirers that started being receivers and the increased their value until convert to regular subacquirers|
 
+According to the classification and to the generated outputs we have the following scenarios
+
+**CIP (and other registrars) subacquirers by type**
+
+![CIP (and other registrars) subacquirers by type](./images/cip_subs.png)
+
+**CERC subacquirers by type**
+
+![CERC subacquirers by type](./images/cerc_subs.png)
+
+# Output
+
+- [Sub-acquirers - CIP and other registrars](./output/subacquirers_cip.csv);
+- [Sub-acquirers - CERC](./output/subacquirers_cip.csv).
+
 # Resources
 - [CERC participants list](./input/LISTA-PARTICIPANTES-CERC-ARRANJOS-DE-PAGAMENTO-1.pdf) (updated 05/2022);
 - [CIP participants list](./input/ParticipantesHomologados.pdf) (updated 8/11/2022).
